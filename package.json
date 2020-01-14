@@ -1,0 +1,57 @@
+{
+  "name": "demo-action-sync",
+  "version": "1.0.0",
+  "description": "跨终端交互同步工具演示页面",
+  "scripts": {
+    "dev": "bs-scripts dev",
+    "build": "rm -rf dist && bs-scripts build",
+    "eslint": "eslint . --ext .ts,.tsx",
+    "es:fix": "eslint . --ext .ts,.tsx --fix",
+    "analyzer": "webpack-bundle-analyzer dist/stats.json",
+    "bs-action": "bs-action-sync start http://127.0.0.1:9001"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run eslint",
+      "git add"
+    ]
+  },
+  "main": "src/index.ts",
+  "license": "ISC",
+  "author": "bszhct",
+  "dependencies": {
+    "@bszhct/bs-action-sync": "1.0.1",
+    "@bszhct/template-base": "^0.0.2",
+    "@reach/router": "1.2.1",
+    "axios": "0.19.0",
+    "mobx": "4.14.1",
+    "mobx-react": "5.4.4",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@bszhct/template-eslint": "^0.0.2",
+    "@bszhct/template-webpack": "^0.1.0",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
+    "mobx-react-devtools": "6.1.1"
+  },
+  "browserslist": [
+    "last 5 Chrome versions",
+    "last 5 Firefox versions",
+    "Safari >= 6",
+    "ie > 8"
+  ],
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "eslintIgnore": [
+    "dist"
+  ]
+}
