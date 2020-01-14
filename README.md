@@ -27,4 +27,4 @@ yarn bs-action
 
 ## 使用文档
 
-(bs-action-sync)[https://github.com/bszhct/bs-action-sync]
+[bs-action-sync](https://github.com/bszhct/bs-action-sync)
