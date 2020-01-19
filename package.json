@@ -1,5 +1,5 @@
 {
-  "name": "demo-action-sync",
+  "name": "@bszhct/demo-action-sync",
   "version": "1.0.0",
   "description": "跨终端交互同步工具演示页面",
   "scripts": {
