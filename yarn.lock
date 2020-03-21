@@ -33,10 +33,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@bszhct/bs-action-sync@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bszhct/bs-action-sync/-/bs-action-sync-1.0.1.tgz#20e1ff4a8cd4f0e46c679575a1f7e61ceb27d5fc"
-  integrity sha512-fImtVZQGFREbhoa71ChWd+WJg4vYcLCymzE1JuioZXO6etfiPN/hVc/iUB1zNhTho5Heq41FLSN0oqffIGEzjg==
+"@bszhct/bs-action-sync@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/@bszhct/bs-action-sync/-/bs-action-sync-1.0.2.tgz#e1a03fc26636b847ed398662e06d9fd95f036b64"
+  integrity sha512-lnGLnjjrZelKCJeI9w9wi67X2FAGlkx1wZMNPlrbHN4yFA6bIFZDYKuE7rrIkTmke7kkMlnfwtVfTZjfGc246Q==
   dependencies:
     "@bszhct/template-base" "0.0.2"
     caporal "1.3.0"
